@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="158c3950-4f0e-4885-9cc1-2f46149f9f6b" solutionId="158c3950-4f0e-4885-9cc1-2f46149f9f6b" resetWebServer="true" name="VisualWebPartProject1" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="ClassLibrary2.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\ClassLibrary2\ClassLibrary2.csproj" />
+    <projectOutputAssembly location="ClassLibrary1.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\ClassLibrary1\ClassLibrary1.csproj" />
+  </assemblies>
+  <features>
+    <featureReference itemId="6b59a48a-5fcd-470c-9e7f-c82141edb629" />
+    <featureReference itemId="e6f502ef-e4ee-4993-8200-2c609fcabf6d" projectPath="..\VisualWebPartProject2\VisualWebPartProject2.csproj" />
+  </features>
+</package>
